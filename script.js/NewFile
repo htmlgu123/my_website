@@ -1,0 +1,9 @@
+// Greet the user in the console
+console.log("Welcome to My Website!");
+
+// Add interactivity to form submission
+const form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent page refresh
+  alert('Thank you for submitting the form!');
+});
